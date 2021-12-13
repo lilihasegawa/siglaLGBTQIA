@@ -1,0 +1,89 @@
+body{
+    background-color: #f3f3ff;
+    margin: 20px 330px 20px 330px;
+}
+
+.cabecalho {
+    padding: 15px;
+    background-color: #f3f3ff;
+    color: black
+}
+
+.titulo_nav {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.menu{
+    position: absolute;
+    right: 0;
+    top: 40%;
+}
+
+.itemMenu {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+.linkMenu {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ff5972;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.titulo{
+    text-align: center;
+    background-color: #ffe0f2;
+    color: #ff5972;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0 0 30px 0;
+}
+
+.texto {
+    font-size: 27px;
+}
+img{
+    padding: 0;
+    margin: 0;
+}
+.nome{
+    color: #ff5972;
+    font-weight: bold;
+}
+
+.imagem{
+    text-align: left;
+}
+
+.rodape{
+    text-align: center;
+    background-color: #ffe0f2;
+    margin: 40px 0 40px 0;
+    clear: none;
+}
+
+a:hover{
+    color: #ffcbd9;
+    font-size: 150%;
+}
+.imagem1{
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+#espaco{
+    clear: left;
+}
+#Lissa{
+    margin-top: 5%;
+}
+#Maria{
+    margin-top: 5%;
+}
+#professor{
+    margin-top: 5%;
+}

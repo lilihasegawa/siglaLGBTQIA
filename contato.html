@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contato</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="contato.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div class="titulo_nav">
+        <a href="siglaLGBTQIA.html"><img src="logo2.png" width="10%" height="10%"></a>
+        <nav class="menu">
+            <ul>
+                <li class="itemMenu"><a class="linkMenu" href="historicidade.css">Historicidade</a> </li>
+                <li class="itemMenu"><a class="linkMenu" href="siglaLGBTQIA.html">Sigla LGBTQIA+</a></li>
+                <li class="itemMenu"><a class="linkMenu" href="contato.html">Contato</a> </li>
+                <li class="itemMenu"><a class="linkMenu" href="quemSomos.html">Quem Somos</a> </li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+
+
+    <h1 class="titulo">CONTATO</h1>
+    
+    <main>
+        <form action="arquivoQueReceberaOsDados.js" method="POST">
+            <label for="nomesobrenome">Nome e sobrenome:</label>
+            <input class="input-padrao" type="text" id="nomesobrenome" required> 
+            
+
+            <label for="email">Email:</label>
+           <input class="input-padrao" type="email" id="email" required placeholder="seuemail@dominio.com"> 
+
+           
+            <label for="mensagem">Mensagem:</label>
+            <textarea class="input-padrao" cols="70" rows="10" id="mensagem"required></textarea> 
+            
+
+            <input type="submit" value="Enviar" class="enviar"> 
+        </form>
+
+    </main>    
+
+    <footer class="rodape">
+        &copy; Elise Lissa Hasegawa, João Vitor Costa Braga e Maria Clara Peixoto Moureira - 2021. 
+    </footer>
+
+</body>
+
+</html>

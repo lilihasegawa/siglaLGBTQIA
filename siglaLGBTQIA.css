@@ -1,0 +1,73 @@
+body{
+    background-color: #f3f3ff;
+    margin: 20px 330px 20px 330px;
+}
+
+.cabecalho {
+    padding: 15px;
+    background-color: #f3f3ff;
+    color: black
+}
+
+.titulo_nav {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.menu{
+    position: absolute;
+    right: 0;
+    top: 40%;
+}
+
+.itemMenu {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+.linkMenu {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #3d8a3f;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.titulo{
+    text-align: center;
+    color: #3d8a3f;
+    background-color: #cfffd07c;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0 0 30px 0;
+}
+
+.introducao{
+    font-size: 20px;
+}
+
+.texto{
+    font-size: 20px;
+}
+
+.img{
+    text-align: center;
+}
+
+.marcados{
+    color:#3d8a3f;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.rodape{
+    text-align: center;
+    background-color: #cfffd07c;
+    margin: 40px 0 40px 0;
+}
+
+a:hover{
+    color: #ffcbd9;
+    font-size: 150%;
+}

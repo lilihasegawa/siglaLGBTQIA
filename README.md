@@ -1,1 +1,1 @@
-# siglaLGBTQIA-
+# siglaLGBTQIA+

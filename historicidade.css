@@ -53,6 +53,10 @@ p{
 .ref{
     margin-bottom: 1em;
 }
+
+.linkRef {
+    color: #906fa8;
+}
     
 .rodape{
     text-align: center;

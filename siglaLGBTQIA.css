@@ -68,30 +68,6 @@ body{
     margin: 40px 0 40px 0;
 }
 
-@media screen and (min-width: 200px) {
-    body{
-        margin: 10px 200px 10px 200px;
-    }
-    
-    .titulo{
-        width: auto;
-    }
-
-    .img {
-        text-align: center;
-        margin: auto;
-        max-width: fit-content;
-    }
-
-    .introducao{
-        font-size: 15px;
-    }
-    
-    .texto{
-        font-size: 15px;
-    }
-}
-
 a:hover{
     color: #ffcbd9;
     font-size: 150%;
